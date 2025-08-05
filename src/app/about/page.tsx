@@ -9,7 +9,7 @@ import {
   staggerContainer,
   cardHover,
   cardHoverSmall
-} from '@/utils/animations'
+} from '../../utils/animations'
 
 export default function About() {
   return (
@@ -24,9 +24,7 @@ export default function About() {
       {/* Bio Section */}
       <motion.section className="mb-16" {...fadeInUp}>
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          I&apos;m a passionate Full Stack Developer with expertise in building modern web applications.
-          With a strong foundation in both frontend and backend technologies, I create seamless
-          user experiences and robust server-side solutions.
+          {"I'm a passionate Full Stack Developer with expertise in building modern web applications. With a strong foundation in both frontend and backend technologies, I create seamless user experiences and robust server-side solutions."}
         </p>
       </motion.section>
 
@@ -105,7 +103,7 @@ export default function About() {
             {...cardHoverSmall}
           >
             <h3 className="text-xl font-semibold mb-2">10th High School (Matriculate)</h3>
-            <p className="text-primary mb-2">St Mary's English School • Up to 2020</p>
+            <p className="text-primary mb-2">{"St Mary's English School • Up to 2020"}</p>
             <p className="text-secondary">
               Completed my 10th at Mumbai English High School with a strong academic foundation.
             </p>
@@ -139,3 +137,4 @@ export default function About() {
     </div>
   )
 }
+

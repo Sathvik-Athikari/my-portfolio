@@ -1,5 +1,4 @@
 "use client"
-import { thead } from "framer-motion/client";
 import { createContext, useContext, useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
