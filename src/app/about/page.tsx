@@ -89,7 +89,7 @@ export default function About() {
       {/* Education Section */}
       <motion.section {...fadeIn} transition={{ delay: 0.6 }}>
         <motion.h2 className="section-title" {...fadeInUp}>
-          Education
+          Education & Activities
         </motion.h2>
         <motion.div
           className="max-w-3xl mx-auto grid gap-6"

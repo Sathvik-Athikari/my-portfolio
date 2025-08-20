@@ -3,10 +3,10 @@ import { Project } from "@/types";
 export const projects: Project[] = [
     {
         title: 'E-commerce Platform',
-        description: 'A full-stack e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.',
-        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe'],
+        description: 'A full-stack e-commerce platform built with NodeJs, MongoDB, ReactJS and Tailwind CSS.',
+        technologies: ['NodeJS', 'ReactJS', 'Tailwind CSS', 'Stripe', 'RazorPay'],
         githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
+        demoLink: 'https://forever-orpin-phi.vercel.app/',
         image: '/projects/e-commerce-website.png',
       },
       {
@@ -22,16 +22,8 @@ export const projects: Project[] = [
         description: 'My personal portfolio website showcasing my projects and skills.',
         technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
         githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
+        demoLink: 'https://sathvik-portfolio-3jre.onrender.com',
         image: '/projects/portfolio-website.jpg',
-      },
-      {
-        title: 'Blog Platform',
-        description: 'A blogging platform with user authentication and markdown support.',
-        technologies: ['Gatsby', 'GraphQL', 'Contentful'],
-        githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
-        image: '/projects/blog-website.jpeg',
       },
       {
         title: 'Weather App',
@@ -41,28 +33,4 @@ export const projects: Project[] = [
         demoLink: 'https://demo.com',
         image: '/projects/weather-app.png',
       },
-      {
-        title: 'Chat Application',
-        description: 'A real-time chat application using WebSocket technology.',
-        technologies: ['React', 'Node.js', 'Socket.io'],
-        githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
-        image: '/projects/chat-app.png',
-      },
-      {
-        title: 'Recipe Finder',
-        description: 'A recipe search application using the Edamam API.',
-        technologies: ['React', 'Edamam API'],
-        githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
-        image: '/projects/recipe-finder.png',
-      },
-      {
-        title: 'Expense Tracker',
-        description: 'A personal finance tracker to manage expenses and income.',
-        technologies: ['React', 'Firebase'],
-        githubLink: 'https://github.com',
-        demoLink: 'https://demo.com',
-        image: '/projects/expense-tracker.webp',
-      }
   ];
