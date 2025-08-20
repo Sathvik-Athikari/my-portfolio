@@ -12,10 +12,10 @@ const Footer = () => {
                     <p className='text-sm text-secondary mt-2'>o {new Date().getFullYear()} Portfolio. All rights reserved.</p>
                 </div>
                 <div className='flex space-x-6'>
-                    <Link href='/' className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
+                    <Link href='https://github.com/Sathvik-Athikari' className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
                         <FaGithub/>
                     </Link>
-                    <Link href='/' className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
+                    <Link href='https://www.linkedin.com/in/sathvik-athikari-328941272/' className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
                         <FaLinkedin/>
                     </Link>
                     <Link href='/' className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>

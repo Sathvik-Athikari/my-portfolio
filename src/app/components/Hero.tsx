@@ -44,7 +44,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Sathvik-Athikari"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -54,7 +54,7 @@ export default function Hero() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sathvik-athikari-328941272/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -75,7 +75,7 @@ export default function Hero() {
             </motion.a>
           </motion.div>
           <motion.div 
-            className="flex flex-col md:flex-row justify-center gap-4"
+            className="flex flex-col md:flex-row justify-center gap-4 mb-7"
             {...fadeInUp}
             transition={{ delay: 0.6 }}
           >
@@ -100,8 +100,10 @@ export default function Hero() {
               >
                 Contact Me
               </Link>
+              
             </motion.div>
           </motion.div>
+          <Link className='bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"' href='https://drive.google.com/file/d/11TZKQFRnLRwkVDiIt2xtzNdnZoVozMDq/view?usp=drivesdk ' target="_blank" rel="noopener noreferrer">View My Resume</Link>
         </div>
       </div>
     </section>
